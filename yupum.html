@@ -41,7 +41,7 @@ nav a{margin-left:18px;font-size:15px;color:var(--muted)}nav a:hover{color:var(-
 @media (max-width:860px){nav{display:none}.brand small{display:none}}
 .hero{padding:0;background:var(--card)}
 .hero .grid{display:grid;grid-template-columns:1.05fr 1fr;min-height:540px}
-.hero .text{padding:66px 24px 66px calc((100% - 1080px)/2 + 24px);display:flex;flex-direction:column;justify-content:center}
+.hero .text{padding:66px 24px 66px max(24px,calc((100vw - 1080px)/2 + 24px));display:flex;flex-direction:column;justify-content:center}
 .hero h1{font-size:clamp(30px,4.3vw,50px);letter-spacing:-.01em;margin:12px 0 18px}
 .kicker{color:var(--blue);font-weight:600;font-size:15.5px}
 .hero p{color:var(--muted);font-size:17.5px;max-width:520px;margin:0 0 14px}
@@ -187,6 +187,11 @@ footer .links a:hover{text-decoration:underline}
 
 <section class="other"><div class="wrap"><h2>다른 서비스</h2><p class="chips"><a href="factory.html">공장청소</a><a href="junggong.html">준공청소</a><a href="special.html">특수청소</a><a href="demolition.html">철거</a><a href="floorwax.html">바닥왁스코팅</a><a href="conveyor.html">컨베이어청소</a><a href="coolingtower.html">냉각탑청소</a><a href="coolant.html">절삭유청소</a><a href="cnc.html">CNC설비청소</a><a href="foodfactory.html">식품공장청소</a><a href="parking.html">주차장청소</a></p></div></section>
 
+<section class="nearby"><div class="wrap">
+  <h2>지역별 유품정리 안내</h2>
+  <p class="lead">담당 지점과 출장 범위는 지역 페이지에서 확인하실 수 있습니다.</p>
+  <h3 style="font-size:17px;margin:18px 0 0">경북·대구</h3><p class="chips"><a href="daegu-yupum.html">대구 유품정리</a> <a href="pohang-yupum.html">포항 유품정리</a> <a href="gyeongsan-yupum.html">경산 유품정리</a> <a href="gumi-yupum.html">구미 유품정리</a> <a href="gyeongju-yupum.html">경주 유품정리</a> <a href="chilgok-yupum.html">칠곡 유품정리</a></p><h3 style="font-size:17px;margin:18px 0 0">경남·부산·울산</h3><p class="chips"><a href="busan-yupum.html">부산 유품정리</a></p><h3 style="font-size:17px;margin:18px 0 0">충남·대전·세종</h3><p class="chips"><a href="daejeon-yupum.html">대전 유품정리</a> <a href="cheonan-yupum.html">천안 유품정리</a> <a href="gongju-yupum.html">공주 유품정리</a> <a href="asan-yupum.html">아산 유품정리</a> <a href="nonsan-yupum.html">논산 유품정리</a> <a href="dangjin-yupum.html">당진 유품정리</a> <a href="sejong-yupum.html">세종 유품정리</a> <a href="seosan-yupum.html">서산 유품정리</a></p><h3 style="font-size:17px;margin:18px 0 0">전북</h3><p class="chips"><a href="jeonju-yupum.html">전주 유품정리</a> <a href="gunsan-yupum.html">군산 유품정리</a></p><h3 style="font-size:17px;margin:18px 0 0">서울·인천·경기</h3><p class="chips"><a href="pyeongtaek-yupum.html">평택 유품정리</a> <a href="bucheon-yupum.html">부천 유품정리</a> <a href="uijeongbu-yupum.html">의정부 유품정리</a> <a href="incheon-yupum.html">인천 유품정리</a> <a href="namyangju-yupum.html">남양주 유품정리</a> <a href="suwon-yupum.html">수원 유품정리</a> <a href="yongin-yupum.html">용인 유품정리</a> <a href="seongnam-yupum.html">성남 유품정리</a> <a href="anyang-yupum.html">안양 유품정리</a> <a href="ilsan-yupum.html">일산 유품정리</a> <a href="hwaseong-yupum.html">화성 유품정리</a> <a href="gimpo-yupum.html">김포 유품정리</a> <a href="paju-yupum.html">파주 유품정리</a> <a href="icheon-yupum.html">이천 유품정리</a> <a href="ansan-yupum.html">안산 유품정리</a> <a href="gangnam-yupum.html">강남 유품정리</a> <a href="goyang-yupum.html">고양 유품정리</a> <a href="gwangmyeong-yupum.html">광명 유품정리</a> <a href="hanam-yupum.html">하남 유품정리</a> <a href="osan-yupum.html">오산 유품정리</a> <a href="dongtan-yupum.html">동탄 유품정리</a> <a href="yeongdeungpo-yupum.html">영등포 유품정리</a> <a href="guri-yupum.html">구리 유품정리</a> <a href="gunpo-yupum.html">군포 유품정리</a> <a href="bundang-yupum.html">분당 유품정리</a> <a href="seocho-yupum.html">서초 유품정리</a></p><h3 style="font-size:17px;margin:18px 0 0">충북</h3><p class="chips"><a href="cheongju-yupum.html">청주 유품정리</a> <a href="chungju-yupum.html">충주 유품정리</a> <a href="jecheon-yupum.html">제천 유품정리</a></p>
+</div></section>
 <footer><div class="wrap">
   <div><img src="img/logo.png" alt="더클린컴퍼니">
   대표 이연미 · 사업자등록번호 208-13-81418<br>
