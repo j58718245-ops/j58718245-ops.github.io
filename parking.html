@@ -41,7 +41,7 @@ nav a{margin-left:18px;font-size:15px;color:var(--muted)}nav a:hover{color:var(-
 @media (max-width:860px){nav{display:none}.brand small{display:none}}
 .hero{padding:0;background:var(--card)}
 .hero .grid{display:grid;grid-template-columns:1.05fr 1fr;min-height:540px}
-.hero .text{padding:66px 24px 66px calc((100% - 1080px)/2 + 24px);display:flex;flex-direction:column;justify-content:center}
+.hero .text{padding:66px 24px 66px max(24px,calc((100vw - 1080px)/2 + 24px));display:flex;flex-direction:column;justify-content:center}
 .hero h1{font-size:clamp(30px,4.3vw,50px);letter-spacing:-.01em;margin:12px 0 18px}
 .kicker{color:var(--blue);font-weight:600;font-size:15.5px}
 .hero p{color:var(--muted);font-size:17.5px;max-width:520px;margin:0 0 14px}
